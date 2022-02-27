@@ -1,0 +1,49 @@
+{
+    "blocks": [
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "Welcome, How are you doing? "
+            }
+        },
+        {
+            "type": "actions",
+            "elements": [
+                {
+                    "type": "button",
+                    "text": {
+                        "type": "plain_text",
+                        "text": "Doing well",
+                        "emoji": true
+                    },
+                    "value": "doing well",
+                    "style": "primary",
+                    "action_id": "actionId-0"
+                },
+                {
+                    "type": "button",
+                    "text": {
+                        "type": "plain_text",
+                        "text": "Neutral",
+                        "emoji": true
+                    },
+                    "value": "neutral",
+                    "style": "danger",
+                    "action_id": "actionId-1"
+                },
+                {
+                    "type": "button",
+                    "text": {
+                        "type": "plain_text",
+                        "text": "Feeling Okay",
+                        "emoji": true
+                    },
+                    "value": "feeling okay",
+                    "style": "primary",
+                    "action_id": "actionId-2"
+                }
+            ]
+        }
+    ]
+}
