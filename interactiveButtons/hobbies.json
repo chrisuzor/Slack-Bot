@@ -1,0 +1,60 @@
+[
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "What are your favorite hobbies"
+            },
+            "accessory": {
+                "type": "static_select",
+                "placeholder": {
+                    "type": "plain_text",
+                    "text": "Select an item",
+                    "emoji": true
+                },
+                "options": [
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "Football",
+                            "emoji": true
+                        },
+                        "value": "football"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "Music",
+                            "emoji": true
+                        },
+                        "value": "music"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "Sleep",
+                            "emoji": true
+                        },
+                        "value": "sleep"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "Movies",
+                            "emoji": true
+                        },
+                        "value": "movies"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "Basketball",
+                            "emoji": true
+                        },
+                        "value": "basketball"
+                    }
+                ],
+                "action_id": "static_select-action"
+            }
+        }
+    ]
