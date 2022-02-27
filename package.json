@@ -1,0 +1,40 @@
+{
+  "name": "slack-bot",
+  "version": "1.0.0",
+  "description": "Slack bot that asks questions about your mood and hobby",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisuzor/Slack-Bot.git"
+  },
+  "author": "Christopher Uzochukwu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisuzor/Slack-Bot/issues"
+  },
+  "homepage": "https://github.com/chrisuzor/Slack-Bot#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3",
+    "morgan": "^1.10.0",
+    "prettier": "^2.5.1",
+    "superagent": "^7.1.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react": "^7.29.2"
+  }
+}
