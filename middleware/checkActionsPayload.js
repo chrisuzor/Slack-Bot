@@ -7,7 +7,7 @@ const hobbies = JSON.parse(
 
 exports.determineResponse = (req, res, next) => {
   const payload = JSON.parse(req.body.payload);
-  console.log(payload);
+
   if (payload.actions[0].action_id === 'static_select-action') {
     console.log(payload.actions[0].selected_option.value);
     req.responseJson = { text: 'Thank you' };
